@@ -12,13 +12,12 @@
 }
 
 .-scrollrecipies{    
-    width: auto;
+    height: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 20px;
-    padding-right: 50px;
     border-radius: 50px;
 }
 .rishi{
@@ -29,6 +28,5 @@
     flex-direction: column;
     background-color: rgb(11, 118, 133);
     text-decoration: none;
-    padding-right: 20px;
     border-radius: 20px;
 }
