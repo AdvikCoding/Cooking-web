@@ -13,5 +13,5 @@ def banana():
     return render_template('banana_bread.html')  # Flask looks in 'templates' folder by default
 
 if __name__ == '__main__':
-    app.run(host="127.0.0.1", port=8080, debug=True)
+    app.run(host='127.0.0.1', port=1234, debug=True)
 
