@@ -30,3 +30,46 @@
     text-decoration: none;
     border-radius: 20px;
 }
+.Parent_Recipies{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border: 2px;
+    border-color: black;
+    border-radius: 30px;
+}
+
+.Recipies_BananaCake{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+ol{
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+    width: 100vw;
+}
+ul{
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+    width: 100vw;
+}
+.imgbro{
+    display: flex;
+    justify-content: center;
+}
+.hi{
+    display: flex;
+    justify-content: center;
+}
+.Pinlogo{
+    display: flex;
+    justify-content:center;
+}
