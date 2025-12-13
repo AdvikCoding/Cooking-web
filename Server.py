@@ -11,7 +11,10 @@ def new_home():
 @app.route('/banana')
 def banana():
     return render_template('banana_bread.html')  # Flask looks in 'templates' folder by default
+@app.route('/recipies')
+def recipies():
+    return render_template('recipies.html')  # Flask looks in 'templates' folder by default
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=1234, debug=True)
+    app.run(host='0.0.0.0', port=1234, debug=True)
 
