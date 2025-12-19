@@ -123,3 +123,29 @@ button{
     width: 50vw;
     padding: 20px;
 }
+p{
+    font-family: Geom, Arial;
+    color: black;
+}
+img{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+.Recipie{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(178, 229, 255);
+    gap: 15px;
+    outline: none;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px;
+}
+.textinrecipie{
+    display: flex;
+    flex-direction: column;
+}
+.recipies_scroll{
+    padding-top: 20px;
+}

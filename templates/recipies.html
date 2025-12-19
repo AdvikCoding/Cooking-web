@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipies</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <div class="navbar">
+            <a href="home">Home</a>
+            <a href="recipies">Recipies</a>
+        </div>
+    <div class="recipies_scroll">
+        <a href="banana">
+        <div class="Recipie">
+            <img src="{{ url_for('static',  filename='IMG_2285.jpeg')}}" alt="Banana_Cake">
+            <div class="textinrecipie">
+            <h2 style="font-family: BBH Hegarty, Arial; color:  black; font-size: 25px; text-align: center;">Banana Cake 🍰🍌</h2>
+            <p>Learn to make this decicous golden banana cake with only a few steps! Ideal for your next baking project or for any occasion. It is also very customisable</p>            
+        </div>
+        </div>
+        </a>
+    </div>
+</body>
+</html>
