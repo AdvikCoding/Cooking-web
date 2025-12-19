@@ -15,6 +15,7 @@
     <div class="navbar">
             <a href="home">Home</a>
             <a href="recipies">Recipies</a>
+            <input style="float: right; display: flex; justify-content: right;" type="text" id="search" placeholder="Search Recipies">
         </div>
     <div class="recipies_scroll">
         <a href="banana">
@@ -26,6 +27,22 @@
         </div>
         </div>
         </a>
+        
     </div>
+   <script>
+const search = document.getElementById("search");
+const recipes = document.querySelectorAll(".recipe");
+
+search.addEventListener("keyup", () => {
+  const value = search.value.toLowerCase();
+
+  recipes.forEach(recipe => {
+    const titleEl = recipe.querySelector("h2");
+    const title = titleEl ? titleEl.textContent.toLowerCase() : "";
+    recipe.style.display = title.includes(value) ? "" : "none";
+  });
+});
+</script>
+
 </body>
 </html>

@@ -14,6 +14,9 @@ def banana():
 @app.route('/recipies')
 def recipies():
     return render_template('recipies.html')  # Flask looks in 'templates' folder by default
+@app.route('/addu')
+def addu():
+    return render_template('advik.html')  # Flask looks in 'templates' folder by default
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=1234, debug=True)
